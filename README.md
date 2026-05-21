@@ -1,18 +1,18 @@
 # pFL with Gradient Sketching and Neighbour Grouping for Disaster Settings — Flower Implementation
 
-This repository contains the **main Flower-based implementation** of the proposed framework: **Personalized Federated Learning with Gradient Sketching and Neighbour Grouping for Disaster Settings**.
+This repository contains the **main Flower-based implementation and simulation framework** for the proposed method: **Personalized Federated Learning with Gradient Sketching and Neighbour Grouping for Disaster Settings**.
 
 ## Repository Role
 
 This project is organized into two complementary codebases:
 
-- **PFLlib fork**: used for baseline experiments, benchmarking, and comparative evaluation against existing FL / pFL methods
-- **this Flower repository**: used for the dedicated implementation of the proposed method and its full workflow
+- **PFLlib fork**: used for PFLlib-based baseline experiments, benchmarking, and comparative evaluation against existing FL / pFL methods
+- **this Flower repository**: used for the dedicated implementation, simulation, and fuller workflow of the proposed method
 
 In short:
 
-- **PFLlib repo** → evaluation and baseline comparison
-- **Flower repo** → main method implementation
+- **PFLlib repo** → PFLlib-based experimental evaluation
+- **Flower repo** → main implementation and realistic simulation evaluation
 
 ## Research Focus
 
@@ -76,4 +76,4 @@ Next steps include:
 
 PFLlib-based evaluation fork:
 
-- <https://github.com/Miller-Lu-622/pFL-Gradient-Sketching-and-Neighbour-Grouping-for-Disaster-Settings>
+- <https://github.com/Miller-Lu-622/disaster-pfl-pfllib-eval>
